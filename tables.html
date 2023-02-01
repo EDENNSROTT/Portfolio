@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <!--Adding CSS to customize the borders.-->
+        <!--Add border-collapse to CSS to avoid having double borders-->
+        <style>
+
+            th, td{ border: 1px solid black;
+            border-collapse: collapse;
+            border-radius: 10px;}
+
+            th, td{ background-color:aquamarine;
+            text-align: center;
+            width: 300px;
+            padding: 5px;
+           }
+           table{
+            border-spacing: 30px;
+           }
+
+        </style>
+
+        
+
+
+    </head>
+
+    <body>
+
+        <table>
+            <caption>Travel Stuff</caption>
+            <tr>
+                <th colspan="2">company</th>
+                <th>contact</th>
+                
+
+            </tr>
+            <tr>
+                <td>Alfred</th>
+                <td>Maria</th>
+                <td>Germany</th>
+
+            </tr>
+            <tr>
+                <td>Company </th>
+                <td>Francisco</th>
+                <td>Mexico</th>
+
+            </tr>
+
+            <p id="demo"></p>
+
+        </table>
+
+        <script>document.getElementById("demo").innerHTML = "hello javascript!";</script>
+    </body>
+
+</html>
